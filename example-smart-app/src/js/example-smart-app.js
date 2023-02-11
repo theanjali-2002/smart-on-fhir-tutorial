@@ -31,6 +31,7 @@
 
           var fname = '';
           var lname = '';
+          var temp = '';
 
           if (typeof patient.name[0] !== 'undefined') {
             fname = patient.name[0].given.join(' ');
